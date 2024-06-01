@@ -1,0 +1,13 @@
+pipeline{
+    agent any 
+    stages{
+        stage("Build"){
+            steps{
+                // git branch: 'main', changelog: false, credentialsId: 'github', poll: false, url: 'https://github.com/octobit8-pvt-ltd/django_app_PrathamBaliyan.git'
+                bat 'python slack.py'              
+            }
+             
+                
+        }
+    }
+}
