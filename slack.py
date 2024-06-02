@@ -32,7 +32,7 @@ def main():
     user = 'PrathamBaliyan'
     api_token = '11947db62baa2c4c5fa011f02b4d584fe9'
     # Slack webhook URL
-    slack_webhook_url = 'https://hooks.slack.com/services/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'
+    slack_webhook_url = 'https://hooks.slack.com/services/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'
     # Get Jenkins health status
     health_status = get_jenkins_health_status(jenkins_url, user, api_token)
     # Prepare Slack notification message
